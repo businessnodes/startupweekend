@@ -69,6 +69,10 @@ app.get('/', function(req, res) {
 
 });
 
+app.post('/', function(req, res) {
+  res.render("results", {skills:["welding", "soldering", "graphic design"]})
+});
+
 app.get('/register', function(req, res) {
   res.render('register');
 });

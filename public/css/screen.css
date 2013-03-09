@@ -2,6 +2,35 @@
 
 /* make room for the header */
 body {
-  padding-top: 60px;
+  padding-top: 120px;
   padding-bottom: 40px;
+}
+
+display: inline-block;
+white-space: nowrap;
+padding-right: 9px;
+margin-bottom: 5px;
+margin-right: 5px;.tags {
+  display: inline-block;
+  padding: 4px 6px;
+  width: 206px;
+}
+.tags-hover {
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+ 
+}
+.tags[class*="span"] {
+  float: none;
+  margin-left: 0;
+}
+.tags input[type="text"],
+.tags input[type="text"]:focus {
+  border: none;
+  display: inline;
+  outline: 0;
+  margin: 0;
+  width: 100%;
 }
